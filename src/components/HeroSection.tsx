@@ -30,13 +30,14 @@ const HeroSection = () => {
           <p className="text-sm md:text-lg mt-3 md:mt-4 text-gray-300">Assista a aula de boas vindas:</p>
         </div>
 
-        <Button 
-          size="lg" 
-          className="text-white font-bold text-lg md:text-xl px-6 md:px-8 py-4 md:py-6 rounded-full shadow-xl transform hover:scale-105 transition-all duration-300 hover:opacity-90 w-full md:w-auto"
-          style={{backgroundColor: '#FA6D09'}}
-        >
-          QUERO MEU ACESSO AGORA!
-        </Button>
+<Button 
+  asChild
+  size="lg" 
+  className="text-white font-bold text-lg md:text-xl px-6 md:px-8 py-4 md:py-6 rounded-full shadow-xl transform hover:scale-105 transition-all duration-300 hover:opacity-90 w-full md:w-auto"
+  style={{ backgroundColor: '#FA6D09' }}
+>
+  <a href="#comprar">QUERO MEU ACESSO AGORA!</a>
+</Button>
       </div>
     </section>
   );

@@ -2,7 +2,8 @@ import { Button } from '@/components/ui/button';
 
 const PricingSection = () => {
   return (
-    <section className="py-20 px-4" style={{ backgroundColor: '#FA6D09' }}>
+
+    <section id="comprar" className="py-20 px-4" style={{ backgroundColor: '#FA6D09' }}>
       <div className="max-w-4xl mx-auto text-center">
         <div className="bg-white rounded-3xl shadow-2xl p-12 transform hover:scale-105 transition-transform duration-300">
 
@@ -63,6 +64,7 @@ const PricingSection = () => {
         </div>
       </div>
     </section>
+
   );
 };
 
