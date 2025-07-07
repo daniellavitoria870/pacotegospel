@@ -24,7 +24,7 @@ const TestimonialsSection = () => {
             <div className="flex items-center">
               
               <div className="ml-4">
-                <p className="font-semibold text-black text-lg">João Santos</p>
+                <p className="font-semibold text-black text-lg">Charles</p>
                 <p className="text-gray-600">Pastor</p>
               </div>
             </div>
@@ -35,7 +35,7 @@ const TestimonialsSection = () => {
               <div className="aspect-video bg-black rounded-lg shadow-lg overflow-hidden">
                 <iframe
                   src="https://www.youtube.com/embed/0hMvelm-MVk?autoplay=0&controls=0&disablekb=1&playsinline=true&cc_load_policy=0&cc_lang_pref=auto&widget_referrer=https%3A%2F%2Flianesoares.com.br%2Fbr-pack-aeg%2F&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1&customControls=true&noCookie=false&enablejsapi=1&origin=https%3A%2F%2Flianesoares.com.br&widgetid=3&forigin=https%3A%2F%2Flianesoares.com.br%2Fbr-pack-aeg%2F&aoriginsup=1&gporigin=https%3A%2F%2Fwww.facebook.com%2F&vf=1"
-                  title="Depoimento José Alves"
+                  title="Weliton"
                   className="w-full h-full"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

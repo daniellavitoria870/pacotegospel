@@ -4,7 +4,7 @@ const Footer = () => {
     <footer className="bg-black text-white py-12 px-4">
       <div className="max-w-6xl mx-auto text-center">
         <div className="mb-8">
-          <p className="text-lg mb-4">Copyright © 2023, Pack AEG.</p>
+          <p className="text-lg mb-4">Copyright © 2025</p>
           <div className="flex justify-center space-x-6 mb-8">
             <a href="#" className="hover:text-gray-300 transition-colors" style={{color: '#FA6D09'}}>
               Políticas de Privacidade
@@ -26,7 +26,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-gray-800">
           <p className="font-semibold" style={{color: '#FA6D09'}}>
-            ✨ Transforme suas redes sociais hoje mesmo! ✨
+            Transforme suas redes sociais hoje mesmo!
           </p>
         </div>
       </div>
