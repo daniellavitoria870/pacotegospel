@@ -29,13 +29,16 @@ const PricingSection = () => {
             </div>
           </div>
 
-          <Button
-            size="lg"
-            className="w-full text-white font-bold text-2xl py-8 rounded-full shadow-xl transform hover:scale-105 transition-all duration-300 mb-6 hover:opacity-90"
-            style={{ backgroundColor: '#FA6D09' }}
-          >
-            GARANTIR A OFERTA!
-          </Button>
+<Button
+  asChild
+  size="lg"
+  className="w-full text-white font-bold text-2xl py-8 rounded-full shadow-xl transform hover:scale-105 transition-all duration-300 mb-6 hover:opacity-90"
+  style={{ backgroundColor: '#FA6D09' }}
+>
+  <a href="https://pay.kirvano.com/6b2ef023-e6c1-4c3e-93ed-6aa589274fb4" target="_blank" rel="noopener noreferrer">
+    GARANTIR A OFERTA!
+  </a>
+</Button>
 
           <div className="flex items-center justify-center space-x-4 text-gray-600">
             <div className="flex items-center">
